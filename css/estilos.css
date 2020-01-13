@@ -113,7 +113,7 @@ h2 {
 }
 .hero2{
   height: 350px;
-  background-image: url('../images/hero.jpg');
+  background-image: url('../images/Hero.jpg');
   background-color: #1b2127;
   /* background-size: 500px 300px; */
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ figure {
 
 .google-maps {
   position: relative;
-  padding-bottom: 50%; 
+  padding-bottom: 50%;
   height: 0;
   overflow: hidden;
   }
@@ -537,7 +537,7 @@ figure {
 }
  .carousel-item__details:hover{
   opacity: 1;
-} 
+}
 .carousel-item__details p{
   margin:2px 0px;
   color: white;
@@ -548,7 +548,7 @@ figure {
 }
 
 .carousel-item2:hover ~ .carousel-item2{
-  transform: translate3d(75px,0,0);		
+  transform: translate3d(75px,0,0);
 }
 .carousel__container:hover .carousel-item2{
   opacity: 0.3;
@@ -648,7 +648,7 @@ figure {
     font-size: 1.2em;
     margin: .5em 0;
   }
-  
+
 
   .burger-button {
     display: block;
@@ -759,7 +759,7 @@ figure {
     height: 150px;
     background-position-y: center;
   }
-  
+
   .carousel__container2,
 	.carousel__container{
 		margin: 0;
