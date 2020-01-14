@@ -148,6 +148,7 @@ h2 {
 
 .project-imageContainer img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .header {
@@ -510,6 +511,9 @@ picture img{
   width: 250px;
 }
 
+.project-imageContainer{
+  border-radius:10px;
+}
 
 
 @media screen and (max-width: 1023px) {
@@ -764,10 +768,6 @@ picture img{
     width: 40px;
     height: 40px;
     background-size: 100%;
-  }
-  .comunidad{
-    /* padding: 0 7em 0 7em; */
-    /* margin:  0 7em 0 7em; */
   }
 
 }
