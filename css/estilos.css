@@ -511,6 +511,7 @@ picture img{
 }
 
 
+
 @media screen and (max-width: 1023px) {
   .event-list-title {
     margin-left: 0;
@@ -679,6 +680,11 @@ picture img{
 }
 
 @media screen and (max-width: 480px) {
+
+  picture img{
+    width:125px;
+  }
+
   .carousel__container:hover .carousel-item2:hover{
     transform: scale(1);
     opacity: 1;
@@ -753,6 +759,10 @@ picture img{
     width: 40px;
     height: 40px;
     background-size: 100%;
+  }
+  .comunidad{
+    /* padding: 0 7em 0 7em; */
+    margin:  0 7em 0 7em;
   }
 }
 
