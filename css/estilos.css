@@ -63,7 +63,7 @@ h1 strong {
 h2 {
   color: #212931;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', system-ui;
+  /* font-family: 'Source Sans Pro', system-ui; */
   font-weight: bold;
   font-size: 48px;
   margin-bottom: 20px;
@@ -637,7 +637,7 @@ picture img{
 
   .project {
     display: block;
-    text-align: center;
+    text-align: justify;
   }
   .project-imageContainer {
     width: auto;
