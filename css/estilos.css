@@ -610,8 +610,9 @@ picture img{
     justify-content: center;
     height: 40px;
     font-size: 2em;
-    text-decoration: underline;
+    text-decoration: none;
     margin-bottom: .5em;
+    color: black;
   }
   /* .header .logo {
     text-align: center;
@@ -619,7 +620,7 @@ picture img{
 
   .menu {
     position: fixed;
-    background: rgba(5, 111, 255, .9);
+    background: rgba(255, 255, 255, .75);
     z-index: 3;
     top: 0;
     left: -100vw;
