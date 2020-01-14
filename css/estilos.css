@@ -376,7 +376,8 @@ figure {
   padding-bottom: 10px;
 }
 .carousel-item{
-  width: 200px;
+  /* width: 200px; */
+  width: 427.5px;
   height: 250px;
   border-radius: 20px;
   overflow: hidden;
@@ -505,6 +506,10 @@ figure {
   position: relative;
 }
 
+picture img{
+  width: 250px;
+}
+
 
 @media screen and (max-width: 1023px) {
   .event-list-title {
@@ -570,6 +575,14 @@ figure {
     background-position-y: center;
     height: 275px;
   }
+  .burger-button {
+    display: block;
+  }
+  .header .logo {
+    text-align: center;
+    left: 250px;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -579,9 +592,9 @@ figure {
   }
 
 
-  .burger-button {
+  /* .burger-button {
     display: block;
-  }
+  } */
   .header {
     display: block;
     height: auto;
@@ -599,9 +612,9 @@ figure {
     text-decoration: underline;
     margin-bottom: .5em;
   }
-  .header .logo {
+  /* .header .logo {
     text-align: center;
-  }
+  } */
 
   .menu {
     position: fixed;
@@ -670,6 +683,12 @@ figure {
     transform: scale(1);
     opacity: 1;
   }
+
+  .header .logo {
+    text-align: center;
+    left: center;
+    position: inherit;
+  }
   .carousel-itemImg{
 		width: 250px;
 		height: 200px;
@@ -677,6 +696,8 @@ figure {
 
   .carousel-item{
     transition: none;
+    width:213.75px;
+    height: 125px;
   }
   .carousel-item2{
     transition: none;
@@ -692,7 +713,7 @@ figure {
 		margin: 0;
   }
   .carousel{
-    padding: 30px 30px 60px 30px;
+    padding: 20px 20px 40px 20px;
   }
 
   .hero{
